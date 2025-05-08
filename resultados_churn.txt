@@ -1,0 +1,22 @@
+=== RELATÓRIO DE SUPORTE E METRICAS DE CHURN ===
+
+Significância Estatística (Qui-Quadrado Contrato): p-value = 5.863038300673391e-258
+
+Taxa de Evasão por Tipo de Serviço de Internet:
+| InternetService   |     Churn |
+|:------------------|----------:|
+| DSL               | 0.189591  |
+| Fiber optic       | 0.418928  |
+| No                | 0.0740498 |
+
+Taxa de Evasão por Perfil do Cliente (Idoso / SeniorCitizen):
+|   SeniorCitizen |    Churn |
+|----------------:|---------:|
+|               0 | 0.236062 |
+|               1 | 0.416813 |
+
+Média de Custos Mensais agregados por Churn:
+|   Churn |   Charges.Monthly |
+|--------:|------------------:|
+|       0 |           61.2651 |
+|       1 |           74.4413 |
