@@ -21,7 +21,7 @@ O tipo de contrato é o fator mais decisivo para a perda de clientes. Usuários 
 
 ![Taxa de Evasão por Tipo de Contrato](images/churn_por_contrato.png)
 
-> 🔬 **Validação Estatística:** Aplicamos o **Teste Qui-Quadrado de Independência** para comprovar se esse comportamento era um padrão real ou apenas coincidência. O teste retornou um **p-valor de 0.000000** (estatisticamente significante), provando matematicamente que o modelo de contrato mensal é o maior causador de instabilidade na base.
+> **Validação Estatística:** Aplicamos o **Teste Qui-Quadrado de Independência** para comprovar se esse comportamento era um padrão real ou apenas coincidência. O teste retornou um **p-valor de 0.000000** (estatisticamente significante), provando matematicamente que o modelo de contrato mensal é o maior causador de instabilidade na base.
 
 ### 2. Atrito no Método de Pagamento (Cheque Eletrônico)
 Identificamos um comportamento crítico cruzando as formas de pagamento: clientes que pagam via **Cheque Eletrônico** cancelam significativamente mais do que aqueles que utilizam métodos automáticos (Cartão de Crédito ou Transferência Bancária). 
